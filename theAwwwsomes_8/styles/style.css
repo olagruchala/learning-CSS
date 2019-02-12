@@ -1,0 +1,50 @@
+body
+{
+  font-family: 'Dosis', sans-serif;
+  background-color: #FFC0CB;
+  color: #191970;
+  font-size: 17px;
+}
+
+header
+{
+  color: #FF69B4;
+}
+
+h1
+{
+  font-size: 44px;
+  font-weight: 700;
+  color: #FF1493;
+}
+
+h2
+{
+  font-size: 25px;
+  font-weight: 700;
+  color: #FF1493;
+}
+
+footer
+{
+  color: black;
+}
+
+button
+{
+  background-color: #191970;
+  color: white;
+  border: none;
+}
+
+input
+{
+  border-color: black;
+  border-width: 1px;
+}
+
+textarea
+{
+  border-color: black;
+  border-width: 1px;
+}
