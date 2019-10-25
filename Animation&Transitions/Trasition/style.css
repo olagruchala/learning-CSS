@@ -1,0 +1,25 @@
+body {
+    background-color: #333333;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    transition-property: background-color, border-radius, transform;
+    /* mozemy tez uzyc slowa 'all' zamiast wymieniac kolejno property */
+    transition-duration: 1s, 4s, 8s; 
+    /*kolejne czasy indywidualnie ustawione dla kolejnych transition-property*/
+    transition-timing-function: ease-in-out;
+    /* transition-delay: 1s; */
+    /* deley opóźni uruchomienie zmian */
+}
+
+.box:hover {
+    background-color: crimson;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
